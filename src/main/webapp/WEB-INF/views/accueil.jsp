@@ -25,5 +25,8 @@
 			<li><a href="<c:url value="commande" />">Passer une commande</a></li>
 		</ul>
 	</section>
+	<footer>
+		Rôle : ${sessionScope.employe.role.libelle} | <a href="<c:url value="employe" />">Change</a>
+	</footer>
 </body>
 </html>
