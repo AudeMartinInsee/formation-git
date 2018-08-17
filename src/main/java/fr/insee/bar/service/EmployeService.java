@@ -11,7 +11,8 @@ import fr.insee.bar.model.Role;
 @Service
 public class EmployeService {
 
-	private static final Short RESPONSABLE = Short.valueOf("2");
+	public static final Short SERVEUR = Short.valueOf("1");
+	public static final Short RESPONSABLE = Short.valueOf("2");
 
 	public boolean estResponsable(Employe employe) {
 		Role role = employe.getRole();
