@@ -13,7 +13,7 @@
 </head>
 <body>
 	<header id="header">
-		<img alt="Cocktails" src="${pageContext.request.contextPath}/static/cocktails.png" />
+		<img alt="Cocktails" src="${pageContext.request.contextPath}/static/logo-git.png" />
 		<h1>Spring bar</h1>
 	</header>
 	<section id="content">
